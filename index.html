@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
   <meta charset="UTF-8">
@@ -13,86 +13,352 @@
   <header>
     <h1>INCLUSÃO DE SÓCIO</h1>
     <h2>DADOS PESSOAIS</h2>
+    <section class="formulario">
+      <div class="container">
+        <div class="campo_coluna">
+          <label class="campos" for="nome">Nome*</label><br>
+          <input class="campos_edit" type="text" id="nome" name="nome"><br>
+        </div>
+        <div class="campo_coluna">
+          <label for="name">E-mail*</label><br>
+          <input class="campos_edit" type="email" name="name"><br>
+        </div>
+        <div class="campo_coluna">
+          <label for="date">Nascido em*</label><br>
+          <input class="campos_edit text-1" type="date" name="nascido em"><br>
+        </div>
+        <div class="campo_coluna">
+          <p class="informacoes">Grau de instrução*</p>
+          <select class="opcao">
+            <option value="1"> 01 - ANALFABETO</option>
+            <option value="1"> 02 - 1º GRAU</option>
+            <option value="1"> 03 - 2º GRAU</option>
+            <option value="1"> 04 - SUPERIOR</option>
+            <option value="1"> 05 - PÓS-GRADUAÇÃO</option>
+            <option value="1"> 06 - MESTRADO</option>
+            <option value="1"> 07 - DOUTORADO</option>
+            <option value="1"> 08 - PÓS-GRADUAÇÃO</option>
+          </select>
+        </div>
+        <div class="campo_coluna">
+          <p class="informacoes">Sexo*</p>
+          <select class="opcao">
+            <option value="1"> Masculino</option>
+            <option value="2"> Feminino</option>
+          </select>
+        </div>
+      </div>
+    </section>
+
+    <section class="formulario">
+      <div class="container">
+        <div class="campo_coluna">
+          <label class="campos" for="nome">Nome da mãe*</label><br>
+          <input class="campos_edit" type="text" id="nome" name="nome da mãe"><br>
+        </div>
+        <div class="campo_coluna">
+          <label for="name">Nome do pai*</label><br>
+          <input class="campos_edit" type="text" name="nome do pai"><br>
+        </div>
+
+        <div class="campo_coluna">
+          <p class="informacoes">Estado Civil*</p>
+          <select class="opcao">
+            <option value="2"> 01 - SOLTEIRO</option>
+            <option value="2"> 02 - CASADO</option>
+            <option value="2"> 03 - VIÚVO</option>
+            <option value="2"> 04 - DESQUITADO</option>
+            <option value="2"> 05 - DIVORCIADO</option>
+            <option value="2"> 06 - OUTROS</option>
+          </select>
+        </div>
+        <div class="campo_coluna">
+          <label class="campos" for="nome">Telefone*</label><br>
+          <input class="campos_edit" type="text" id="telefone" name="telefone"><br>
+        </div>
+        <div class="campo_coluna">
+          <label class="campos" for="nome">Celular*</label><br>
+          <input class="campos_edit" type="text" id="celular" name="celular"><br>
+        </div>
+      </div>
+    </section>
+
+    <h2>ENDEREÇAMENTO</h2>
+    <section class="formulario">
+      <div class="container">
+        <div class="campo_coluna">
+          <label class="campos" for="nome">Cep*</label><br>
+          <input class="campos_edit" type="text" id="cep" name="cep"><br>
+        </div>
+        <div class="botao">
+          <button class="button">Buscar</button>
+        </div>
+        <div class="campo_coluna">
+          <p class="informacoes">Endereço*</p>
+          <select class="opcao">
+            <option value="3"></option>
+            <option value="1">ALAMEDA</option>
+            <option value="1">AVENIDA</option>
+            <option value="1">BECO</option>
+            <option value="1">ESTRADA</option>
+            <option value="1">FAZENDA</option>
+            <option value="1">PRAÇA</option>
+            <option value="1">RODOVIA</option>
+            <option value="1">RUA</option>
+            <option value="1">TRAVESSA</option>
+            <option value="1">VILA</option>
+          </select>
+        </div>
+        <div class="campo_coluna">
+          <label for="name">*</label><br>
+          <input class="campos_edit" type="text" name="endereço"><br>
+        </div>
+        <div class="campo_coluna">
+          <label class="campos" for="nome">Núm.*</label><br>
+          <input class="campos_edit" type="text" id="telefone" name="telefone"><br>
+        </div>
+        <div class="campo_coluna">
+          <label class="campos" for="nome">Complemento*</label><br>
+          <input class="campos_edit" type="text" id="celular" name="celular"><br>
+        </div>
+      </div>
+    </section>
+
+    <section class="formulario">
+      <div class="container">
+        <div class="campo_coluna">
+          <label class="campos" for="nome">Bairro*</label><br>
+          <input class="campos_edit" type="text" id="cep" name="cep"><br>
+        </div>
+
+        <div class="campo_coluna">
+          <label for="name">Cidade*</label><br>
+          <input class="campos_edit" type="text" name="endereço"><br>
+        </div>
+        <div class="campo_coluna">
+          <p class="informacoes">UF*</p>
+          <select class="opcao">
+            <option value="3">AC</option>
+            <option value="1">AL</option>
+            <option value="1">AM</option>
+            <option value="1">AP</option>
+            <option value="1">BA</option>
+            <option value="1">CE</option>
+            <option value="1">DF</option>
+            <option value="1">ES</option>
+            <option value="1">GO</option>
+            <option value="1">MA</option>
+            <option value="1">MG</option>
+            <option value="1">MS</option>
+            <option value="1">MT</option>
+            <option value="1">PA</option>
+            <option value="1">PB</option>
+            <option value="1">PE</option>
+            <option value="1">PI</option>
+            <option value="1">PR</option>
+            <option value="1">RJ</option>
+            <option value="1">RN</option>
+          </select>
+        </div>
+      </div>
+    </section>
+
+    <h2>DOCUMENTAÇÃO</h2>
+    <section class="formulario">
+      <div class="container">
+        <div class="campo_coluna">
+          <label class="campos" for="nome">CPF*</label><br>
+          <input class="campos_edit" type="text" id="cpf" name="cpf"><br>
+        </div>
+
+        <div class="campo_coluna">
+          <label for="name">Identidade*</label><br>
+          <input class="campos_edit" type="text" name="identidade"><br>
+        </div>
+        <div class="campo_coluna">
+          <label class="campos" for="nome">Órgão emissor*</label><br>
+          <input class="campos_edit" type="text" id="órgão emissor" name="órgao emissor"><br>
+        </div>
+        <div class="campo_coluna">
+          <label class="campos" for="nome">Titulo de eleitor*</label><br>
+          <input class="campos_edit" type="text" id="titulo de eleitor" name="titulo de eleitor"><br>
+        </div>
+        <div class="campo_coluna">
+          <label class="campos" for="nome">Zona*</label><br>
+          <input class="campos_edit" type="text" id="zona" name="zona"><br>
+        </div>
+        <div class="campo_coluna">
+          <label class="campos" for="nome">Seção*</label><br>
+          <input class="campos_edit" type="text" id="seção" name="seção"><br>
+        </div>
+        <div class="campo_coluna">
+          <label class="campos" for="nome">CTPS*</label><br>
+          <input class="campos_edit" type="text" id="ctps" name="ctps"><br>
+        </div>
+        <div class="campo_coluna">
+          <label class="campos" for="nome">Série*</label><br>
+          <input class="campos_edit" type="text" id="serie" name="serie"><br>
+        </div>
+      </div>
+    </section>
+
+    <h2>ESTABELECIMENTO DE ENSINO</h2>
+    <section class="formulario">
+      <div class="container">
+        <div class="campo_coluna">
+          <label class="campos" for="nome">CNPJ*</label><br>
+          <input class="campos_edit" type="text" id="cnpj" name="cnpj"><br>
+        </div>
+        <div class="botao">
+          <button class="button">Buscar</button>
+        </div>
+
+        <div class="campo_coluna">
+          <label for="name">Nome*</label><br>
+          <input class="campos_edit" type="nome do estabelecimento de ensino" name="nome do estabelecimento de ensino"><br>
+        </div>
+        <div class="campo_coluna">
+          <label for="name">E-mail*</label><br>
+          <input class="campos_edit" type="email" name="name"><br>
+        </div>
+      </div>
+    </section>
+
+    <section class="formulario">
+      <div class="container">
+        <div class="campo_coluna">
+          <label class="campos" for="nome">CEP*</label><br>
+          <input class="campos_edit" type="text" id="cep" name="cep"><br>
+        </div>
+        <div class="botao">
+          <button class="button">Buscar</button>
+        </div>
+
+        <div class="campo_coluna">
+          <label for="name">Endereço*</label><br>
+          <input class="campos_edit" type="tex" name="endereço"><br>
+        </div>
+        <div class="campo_coluna">
+          <label for="name">*</label><br>
+          <input class="campos_edit" type="text" name="text"><br>
+        </div>
+        <div class="campo_coluna">
+          <label for="name">Núm*</label><br>
+          <input class="campos_edit" type="text" name="numero"><br>
+        </div>
+        <div class="campo_coluna">
+          <label for="name">Complemento*</label><br>
+          <input class="campos_edit" type="text" name="complemento"><br>
+        </div>
+      </div>
+    </section>
+
+    <section class="formulario">
+      <div class="container">
+        <div class="campo_coluna">
+          <label class="campos" for="nome">Bairro*</label><br>
+          <input class="campos_edit" type="text" id="bairro" name="bairro"><br>
+        </div>
+
+        <div class="campo_coluna">
+          <label for="name">Cidade*</label><br>
+          <input class="campos_edit" type="text" name="cidade"><br>
+        </div>
+        <div class="campo_coluna">
+          <label for="name">Cidade da efetiva prestação de serviço*</label><br>
+          <input class="campos_edit" type="text" name="cidade efetiva"><br>
+        </div>
+        <div class="campo_coluna">
+          <label for="name">Telefone*</label><br>
+          <input class="campos_edit" type="text" name="telefone"><br>
+        </div>
+      </div>
+    </section>
+
+    <section class="formulario">
+      <div class="container">
+        <div class="campo_coluna">
+          <label class="campos" for="nome">Admissão*</label><br>
+          <input class="campos_edit" type="text" id="cep" name="admissão"><br>
+        </div>
+
+        <div class="campo_coluna">
+          <p class="informacoes">Cargo*</p>
+          <select class="opcao">
+            <option value="3">ADESTRADOR</option>
+            <option value="1">ADVOGADO</option>
+            <option value="1">ASSISTENTE ADMINISTRATIVO</option>
+            <option value="1">AUXILIAR ADMINISTRATIVO</option>
+          </select>
+        </div>
+        <div class="campo_coluna">
+          <label for="name">Jornada de trabalho semanal (h)*</label><br>
+          <input class="campos_edit" type="text" name="jornada de trabalho"><br>
+        </div>
+      </div>
+    </section>
+
+    <h2>DEPENDENTE</h2>
+    <section class="formulario">
+      <div class="container">
+        <div class="campo_coluna">
+          <label class="campos" for="nome">Nome*</label><br>
+          <input class="campos_edit" type="text" id="cep" name="admissão"><br>
+        </div>
+
+        <div class="campo_coluna">
+          <p class="informacoes">Parentesco*</p>
+          <select class="opcao">
+            <option value="3">COMPANHEIRO</option>
+            <option value="1">CÔNJUGUE</option>
+            <option value="1">ENTEADA</option>
+            <option value="1">FILHO</option>
+            <option value="1">IRMÃO</option>
+            <option value="1">MÃE</option>
+            <option value="1">NETO</option>
+            <option value="1">PAI</option>
+            <option value="1">SOBRINHO</option>
+          </select>
+        </div>
+        <div class="campo_coluna">
+          <label for="name">Nascido em*</label><br>
+          <input class="campos_edit" type="text" name="nascido"><br>
+        </div>
+        <div class="campo_coluna">
+          <p class="informacoes">Estado civil*</p>
+          <select class="opcao">
+            <option value="3">01 - SOLTEIRO</option>
+            <option value="1">02 - CASADO</option>
+            <option value="1">03 - VIÚVO</option>
+            <option value="1">04 - DESQUITADO</option>
+            <option value="1">05 - DIVORCIADO</option>
+            <option value="1">06 - OUTROS</option>
+          </select>
+        </div>
+      </div>
+    </section>
+
+    <section class="formulario">
+      <div class="container">
+        <div class="campo_coluna">
+          <div class="botao">
+            <button class="button-1">Gravar dependente</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="formulario">
+      <div class="container">
+        <div class="campo_coluna">
+          <div class="botao">
+            <button class="button-2">Enviar para próxima etapa</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </header>
-  <div class="container">
-    <section class="formulario">
-      <label for="name">Nome*</label>
-      <input type="text" class="input" name="name">
-      <label for="name">e-mail*</label>
-      <input type="email" class="input" name="name">
-      <label for="date">nascido em*</label>
-      <input type="date" class="input" name="data">
-      <p class="informacoes">Grau de instrução*</p>
-      <select class="opcao">
-        <option value="1"> 01 - ANALFABETO</option>
-        <option value="1"> 02 - 1º GRAU</option>
-        <option value="1"> 03 - 2º GRAU</option>
-        <option value="1"> 04 - SUPERIOR</option>
-        <option value="1"> 05 - PÓS-GRADUAÇÃO</option>
-        <option value="1"> 06 - MESTRADO</option>
-        <option value="1"> 07 - DOUTORADO</option>
-        <option value="1"> 08 - PÓS-GRADUAÇÃO</option>
-      </select>
-      <p class="informacoes">Sexo*</p>
-      <select class="opcao">
-
-        <option value="1"> Masculino</option>
-        <option value="2"> Feminino</option>
-      </select>
-    </section><br>
-
-    <section class="formulario">
-      <label for="name">Nome da mãe*</label>
-      <input type="text" class="input" name="name" id="name">
-      <label for="name">Nome do pai*</label>
-      <input type="text" class="input" name="name" id="name">
-      <p class="informacoes">Estado civil*</p>
-      <select class="opcao">
-
-        <option value="2"> 01 - SOLTEIRO</option>
-        <option value="2"> 02 - CASADO</option>
-        <option value="2"> 03 - VIÚVO</option>
-        <option value="2"> 04 - DESQUITADO</option>
-        <option value="2"> 05 - DIVORCIADO</option>
-        <option value="2"> 06 - OUTROS</option>
-      </select>
-      <label for="name">Telefone*</label>
-      <input type="telefone" class="input" name="Telefone" id="telefone">
-      <label for="name">Celular*</label>
-      <input type="telefone" class="input" name="Telefone" id="telefone">
-    </section>
-  </div>
-  <div class="container-1">
-    <section class="formulario-3">
-      <h2>ENDEREÇAMENTO</h2>
-      <label for="name">Cep*</label>
-      <input type="text" class="input" name="name" id="name">
-      <button>Buscar</button>
-      <p class="informacoes">Endereço*</p>
-      <select class="opcao">
-        <option value="3"></option>
-        <option value="1">ALAMEDA</option>
-        <option value="1">AVENIDA</option>
-        <option value="1">BECO</option>
-        <option value="1">ESTRADA</option>
-        <option value="1">FAZENDA</option>
-        <option value="1">PRAÇA</option>
-        <option value="1">RODOVIA</option>
-        <option value="1">RUA</option>
-        <option value="1">TRAVESSA</option>
-        <option value="1">VILA</option>
-      </select>
-      <label for="name">*</label>
-      <input type="text" class="input" name="name">
-      <label for="name">Núm*</label>
-      <input type="text" class="input" name="name">
-      <label for="name">Complemento</label>
-      <input type="text" class="input" name="name">
-    </section>
-  </div>
-
-  </section>
-  </div>
 </body>
 
 </html>
