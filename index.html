@@ -40,8 +40,8 @@
             <option value="1"> 08 - PÓS-GRADUAÇÃO</option>
           </select>
         </div>
-        <div class="campo_coluna">
-          <p class="informacoes">Sexo*</p>
+        <div class="campo_coluna format">
+          <p class="informacoe">Sexo*</p>
           <select class="opcao">
             <option value="1"> Masculino</option>
             <option value="2"> Feminino</option>
@@ -135,7 +135,7 @@
           <label for="name">Cidade*</label><br>
           <input class="campos_edit" type="text" name="endereço"><br>
         </div>
-        <div class="campo_coluna">
+        <div class="campo_coluna format">
           <p class="informacoes">UF*</p>
           <select class="opcao">
             <option value="3">AC</option>
@@ -324,7 +324,7 @@
           <label for="name">Nascido em*</label><br>
           <input class="campos_edit" type="text" name="nascido"><br>
         </div>
-        <div class="campo_coluna">
+        <div class="campo_coluna format">
           <p class="informacoes">Estado civil*</p>
           <select class="opcao">
             <option value="3">01 - SOLTEIRO</option>
@@ -357,8 +357,14 @@
         </div>
       </div>
     </section>
-
   </header>
+
+  <script>
+    window.onload = function () {
+      document.getElementById("campos_edit").focus();
+    }
+
+  </script>
 </body>
 
 </html>
