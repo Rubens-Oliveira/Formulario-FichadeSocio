@@ -21,6 +21,7 @@ body {
 .campo_coluna {
   flex-grow: 1;
   margin: 0 1em;
+  margin-right: 25px;
 }
 
 .campos_edit {
@@ -62,7 +63,7 @@ h2 {
   text-decoration: none;
   font-size: 16px;
   margin-top: 15%;
-  margin-left: 3%;
+  margin-left: -1px;
   cursor: pointer;
   border-radius: 5px;
 }
@@ -75,13 +76,14 @@ h2 {
   background-color: #0d6efd; /* Green */
   border: none;
   color: white;
-  padding: 5px 8px;
+  padding: 5px 15px;
   text-align: center;
   text-decoration: none;
   font-size: 14px;
   margin-top: 2%;
-  margin-left: 43%;
+  margin-left: 46%;
   cursor: pointer;
+  border-radius: 1px;
 }
 
 .button-1:active {
@@ -93,18 +95,22 @@ h2 {
   border-color: #198754;
   border: none;
   color: white;
-  padding: 10px 15px;
+  padding: 10px 45px;
   text-align: center;
   text-decoration: none;
   font-size: 16px;
   margin-top: 2%;
-  margin-left: 40%;
+  margin-left: 42%;
   cursor: pointer;
   border-radius: 3px;
 }
 
 .button-2:active {
   background-color: #56595a;
+}
+
+.format {
+  margin-right: 18px;
 }
 
 @media (max-width: 950px) {
